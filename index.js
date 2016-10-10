@@ -1,4 +1,6 @@
 var _ = require('lodash');
 module.exports = function() {
-  console.log(_);
+  console.log('this is the latest v of lodash');
+  console.log(_.chunk);
+  console.log(_.compact);
 }
